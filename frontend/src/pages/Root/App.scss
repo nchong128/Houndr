@@ -1,12 +1,14 @@
 @charset "utf-8";
 @import '../../../node_modules/bulma/sass/utilities/initial-variables.sass';
 
+
 // Navbar
 $navbar-background-color: $orange;
 $navbar-item-color: $white-bis;
 $navbar-item-hover-color: $black;
 
-
+html, body{min-height:100%;}
+body{height:100vh;}
 
 @import '../../../node_modules/bulma/sass/utilities/_all.sass';
 @import '../../../node_modules/bulma/sass/base/_all.sass';

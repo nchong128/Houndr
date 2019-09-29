@@ -1,18 +1,17 @@
 import React from 'react';
 import Content from './Content';
 import Navbar from './Navbar';
-import './App.sass';
-
+import './App.scss';
+import { BrowserRouter as Router} from "react-router-dom";
 
 function App() {
-    document.title = "Houndr: Resume Tracker";
-
     return (
-    <div className="App">
-      <Navbar/>
-      <Content/>
-
-    </div>
+        <Router>
+            <div className="App">
+                <Navbar/>
+                <Content/>
+            </div>
+        </Router>
     );
 }
 

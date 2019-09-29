@@ -1,12 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Navbar(props) {
 	return (
 		<nav class="navbar">
 			<div class="navbar-brand">
-				<a href="www.google.com" className="navbar-item">
+				<Link to="/" class="navbar-item">
 					<img src="https://img.icons8.com/ultraviolet/80/000000/dog.png"/>
-				</a>
+				</Link>
 
 				<a data-target="navbarMenu" className="navbar-burger burger">
 					<span></span>
@@ -17,8 +18,8 @@ function Navbar(props) {
 
 			<div id="navbarMenu" className="navbar-menu" >
 				<div className="navbar-start">
-					<a href="" className="navbar-item">Home</a>
-					<a href="" className="navbar-item">Resumes</a>
+					<Link to="/" class="navbar-item">Home</Link>
+					<Link to="/resumes" class="navbar-item">Resumes</Link>
 				</div>
 
 				<div className="navbar-end">
