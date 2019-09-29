@@ -5,7 +5,6 @@ function Navbar(props) {
 		<nav class="navbar">
 			<div class="navbar-brand">
 				<a href="www.google.com" className="navbar-item">
-					{/*<img src="https://img.icons8.com/ios/100/000000/dog.png"/>*/}
 					<img src="https://img.icons8.com/ultraviolet/80/000000/dog.png"/>
 				</a>
 
@@ -34,14 +33,6 @@ function Navbar(props) {
 					</div>
 				</div>
 			</div>
-
-
-
-
-
-
-
-
 		</nav>
 	)
 }

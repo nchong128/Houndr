@@ -4,15 +4,16 @@ import Navbar from './Navbar';
 import './App.sass';
 
 
-
 function App() {
-  return (
+    document.title = "Houndr: Resume Tracker";
+
+    return (
     <div className="App">
       <Navbar/>
       <Content/>
 
     </div>
-  );
+    );
 }
 
 export default App;
