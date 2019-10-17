@@ -4,7 +4,11 @@ import Navbar from './Navbar';
 import './App.scss';
 import { BrowserRouter as Router} from "react-router-dom";
 
+import { useQuery } from '@apollo/react-hooks';
+import gql from "graphql-tag";
+
 function App() {
+
     return (
         <Router>
             <div className="App">

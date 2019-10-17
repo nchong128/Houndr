@@ -3,9 +3,10 @@
 
 
 // Navbar
-$navbar-background-color: $orange;
-$navbar-item-color: $white-bis;
+$navbar-background-color: #3c91e6;
+$navbar-item-color: #fafffd;
 $navbar-item-hover-color: $black;
+
 
 html, body{min-height:100%;}
 body{height:100vh;}
@@ -13,6 +14,6 @@ body{height:100vh;}
 @import '../../../node_modules/bulma/sass/utilities/_all.sass';
 @import '../../../node_modules/bulma/sass/base/_all.sass';
 @import '../../../node_modules/bulma/sass/components/navbar.sass';
-@import '../../../node_modules/bulma/sass/elements/button.sass';
+@import '../../../node_modules/bulma/sass/elements/all';
 
 

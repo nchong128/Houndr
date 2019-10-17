@@ -19,7 +19,7 @@ function Navbar(props) {
 			<div id="navbarMenu" className="navbar-menu" >
 				<div className="navbar-start">
 					<Link to="/" class="navbar-item">Home</Link>
-					<Link to="/resumes" class="navbar-item">Resumes</Link>
+					<Link to="/resumes" class="navbar-item">Your Resumes</Link>
 				</div>
 
 				<div className="navbar-end">
