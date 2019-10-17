@@ -21,6 +21,7 @@ const server = new ApolloServer({
 		functionName: context.functionName,
 		event,
 		context,
+	})
 });
 
 exports.graphqlHandler = server.createHandler({
