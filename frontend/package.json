@@ -9,6 +9,7 @@
     "apollo-client": "^2.6.4",
     "apollo-link-http": "^1.5.16",
     "bulma": "^0.7.5",
+    "font-awesome": "^4.7.0",
     "gql": "^1.1.2",
     "graphql": "^14.5.8",
     "node-sass": "^4.12.0",
@@ -16,13 +17,16 @@
     "react-dom": "^16.10.1",
     "react-router": "^5.1.1",
     "react-router-dom": "^5.1.1",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy_domain": "aws s3 sync build/ s3://nchong.net --acl public-read",
+    "deploy_subdomain": "aws s3 sync build/ s3://www.nchong.net --acl public-read"
   },
   "eslintConfig": {
     "extends": "react-app"
