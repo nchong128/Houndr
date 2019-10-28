@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ResumeNameInput = styled.input`
-`;
-
-const ResumeContainer = styled.div`
-	max-width: 60%;
-`;
-
 const ResumeFileUpload = () => {
 	return (
 		<div className="file">
@@ -25,11 +18,11 @@ const ResumeFileUpload = () => {
 
 export default function UploadResume(props) {
 	return(
-		<ResumeContainer className="box">
+		<div className="box">
 			<form className="form" action="">
 				<div className="columns is-1 is-variable">
 					<div className="column is-6">
-						<ResumeNameInput type="text" className="input is-rounded" placeholder="Resume name"/>
+						<input type="text" className="input is-rounded" placeholder="Resume name"/>
 					</div>
 					<div className="column is-4">
 						<ResumeFileUpload/>
@@ -39,6 +32,6 @@ export default function UploadResume(props) {
 					</div>
 				</div>
 			</form>
-		</ResumeContainer>
+		</div>
 	)
 };

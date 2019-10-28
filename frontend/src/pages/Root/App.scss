@@ -1,19 +1,19 @@
 @charset "utf-8";
 @import '../../../node_modules/bulma/sass/utilities/initial-variables.sass';
-
+@import '../../../node_modules/css-spacing/css/css-spacing.css';
 
 // Navbar
 $navbar-background-color: #3c91e6;
 $navbar-item-color: #fafffd;
 $navbar-item-hover-color: $black;
 
-
-html, body{min-height:100%;}
-body{height:100vh;}
+//html, body{min-height:100%;}
+//body{height:100vh;}
 
 @import '../../../node_modules/bulma/sass/utilities/_all.sass';
 @import '../../../node_modules/bulma/sass/base/_all.sass';
 @import "../../../node_modules/bulma/sass/form/_all.sass";
 @import "../../../node_modules/bulma/sass/elements/all";
+@import "../../../node_modules/bulma/sass/grid/columns";
 @import "../../../node_modules/bulma/sass/grid/all";
 @import '../../../node_modules/bulma/sass/components/_all.sass';
